@@ -77,5 +77,25 @@
         width: 70%;
         margin: auto;
     }
+    .play-game-container {
+        flex-direction: column-reverse;
+       padding-left: 10px;
+       gap: 20px;
+    }
+    .play-game-pic,.play-game-text{
+        width: 90%;
+        margin: auto;
+    }
+    .play-game-text{
+        text-align: center;
+
+    }
+    .play-game-pic .doll-pic {
+        width: 30%;
+        height: 30%;
+        margin-top: -80px;
+        margin-left: 280px;
+        
+    }
     
 }
