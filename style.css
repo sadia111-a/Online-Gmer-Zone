@@ -171,7 +171,7 @@ body {
 
 /* -----online part starts here----- */
 .online-container {
-  
+
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
@@ -183,7 +183,7 @@ body {
     color: #0B0223;
     font-size: 30px;
     font-weight: 700;
-    
+
 }
 
 .funny {
@@ -197,7 +197,43 @@ body {
 
 .online-pera {
     color: #534C64;
-font-size: 12px;
-font-weight: 400;
-margin-top: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 20px;
 }
+
+/* ------online cards section starts here */
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    /* border: 1px solid red; */
+    max-width: 1000px;
+    margin: 0 auto;
+    min-height: 300px;
+}
+
+.single-card {
+    /* border: 1px solid green; */
+    width: 100%;
+}
+
+.single-card img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.single-card p {
+    margin-top: 10px;
+    color: #534C64;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+/* ------online cards section ends here */

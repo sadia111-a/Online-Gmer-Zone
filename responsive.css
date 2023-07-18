@@ -13,6 +13,11 @@
         align-items: center;
      
     }
+    .cards-container {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        
+       }
 }
 
 
@@ -60,6 +65,17 @@
     }
     .online-pera{
         font-size: 8px;
+    }
+    .cards-container {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+       }
+    
+    .single-card {
+        
+        width: 70%;
+        margin: auto;
     }
     
 }
