@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inconsolata:wght@700&family=Lato:wght@400;700;900&family=Open+Sans:wght@400;700;800&family=Poppins:wght@500;600;700&family=Rubik:wght@300&family=Space+Mono:wght@400;700&family=Ubuntu:ital,wght@0,300;0,400;1,300&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* -----nav part starts here----- */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 50px;
+}
+
+.logo-container {
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 50%;
+}
+
+.logo-container img {
+    width: 70px;
+    object-fit: cover;
+}
+
+.logo-container p {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.logo-container .gamer {
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-items-container {
+
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-items-container a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #3C354F;
+    text-align: center;
+    font-weight: 500;
+}
+
+.nav-items-container .follow-btn {
+    padding: 10px 40px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+
+.youtube {
+    color: red;
+}
+
+.tiktok {
+    color: black;
+}
+
+
+
+
+
+
+
+
+/* -----nav part ends here----- */

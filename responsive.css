@@ -1,0 +1,18 @@
+/* -----For mobile large 425px responsive------ */
+@media screen and (max-width:426px)  {
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-items-container {
+       gap: 10px;
+        flex-direction: column;
+    }
+    .nav-items-container a {
+        margin-top: 30px;
+    }
+    .nav-items-container .follow-btn {
+        padding: 10px 30px;
+        
+    }
+    
+}
