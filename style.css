@@ -205,7 +205,7 @@ body {
 /* ------online cards section starts here */
 .cards-container {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     /* border: 1px solid red; */
     max-width: 1000px;
@@ -231,9 +231,60 @@ body {
     font-weight: 500;
 }
 
-
-
-
-
-
 /* ------online cards section ends here */
+/* ----play game online anywhere anytime starts here----- */
+.play-game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    max-width: 1000px;
+    margin: 50px auto 0;
+    min-height: 400px;
+
+}
+
+.play-game-pic {
+    width: 50%;
+    border: 1px solid red;
+}
+
+.play-game-pic img {
+    width: 100%;
+}
+
+.play-game-pic .doll-pic {
+    width: 30%;
+    height: 30%;
+    margin-top: -100px;
+    margin-left: 350px;
+    border-radius: 8px;
+    border: 10px solid #FFF;
+}
+
+.play-game-text {
+    width: 50%;
+    border: 1px solid red;
+    margin-left: 150px;
+}
+
+.play-game-head {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.play {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-game-pera {
+    color: #534C64;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* ----play game online anywhere anytime ends here----- */
