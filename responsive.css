@@ -1,48 +1,55 @@
 /* ---responsive for tablet 769px---------- */
 @media screen and (max-width:769px) {
-    .nav-container{
+    .nav-container {
         gap: 100px;
     }
-    .banner-text{
-        
+
+    .banner-text {
+
         width: 50%;
         height: 400px;
         margin-bottom: 10px;
         padding-left: 20px;
         display: flex;
         align-items: center;
-     
+
     }
+
     .cards-container {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-        
-       }
+        grid-template-columns: repeat(2, 1fr);
+
+    }
 }
 
 
 
 /* -----For mobile large 425px responsive------ */
-@media screen and (max-width:426px)  {
-    .nav-container{
+@media screen and (max-width:426px) {
+    .nav-container {
         flex-direction: column;
         gap: 7px;
     }
+
     .nav-items-container {
-       gap: 5px;
+        gap: 5px;
         flex-direction: column;
     }
+
     .nav-items-container a {
         margin-top: 20px;
     }
+
     .nav-items-container .follow-btn {
         padding: 10px 30px;
-        
+
     }
-    .banner-container{
+
+    .banner-container {
         flex-direction: column-reverse;
     }
-    .banner-text{
+
+    .banner-text {
         margin-top: 10px;
         width: 100%;
         height: 400px;
@@ -50,51 +57,97 @@
         padding-left: 20px;
         display: flex;
         align-items: center;
-     
+
     }
-    .banner-text-container{
+
+    .banner-text-container {
         padding-left: 50px;
         font-size: 15px;
     }
-    
-    .banner-img{
+
+    .banner-img {
         width: 100%;
     }
-    .online-head,.funny{
+
+    .online-head,
+    .funny {
         font-size: 20px;
     }
-    .online-pera{
+
+    .online-pera {
         font-size: 8px;
     }
+
     .cards-container {
         display: grid;
-        grid-template-columns: repeat(1,1fr);
-        
-       }
-    
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
     .single-card {
-        
+
         width: 70%;
         margin: auto;
     }
+
     .play-game-container {
         flex-direction: column-reverse;
-       padding-left: 10px;
-       gap: 20px;
+        padding-left: 10px;
+        gap: 20px;
     }
-    .play-game-pic,.play-game-text{
+
+    .play-game-pic,
+    .play-game-text {
         width: 90%;
         margin: auto;
     }
-    .play-game-text{
+
+    .play-game-text {
         text-align: center;
 
     }
+
     .play-game-pic .doll-pic {
         width: 30%;
         height: 30%;
-       
-        
+
+
     }
-    
+
+    .game-name-container {
+        /* max-width: 1300px; */
+        /* border: 2px solid red; */
+        margin: 100px auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .single-logo img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .single-logo p {
+        font-size: 3px;
+        width: 60px;
+        height: 30px;
+    }
+
+    .single-logo {
+        display: flex;
+        margin: auto;
+        width: 100px;
+        height: 30px;
+        flex-basis: 110px;
+        padding: 5px 5px;
+    }
+
+
+
+
 }

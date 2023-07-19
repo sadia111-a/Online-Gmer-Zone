@@ -237,7 +237,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-   /* margin-bottom: 100px; */
+    /* margin-bottom: 100px; */
     max-width: 1000px;
     margin: 50px auto 0;
     min-height: 400px;
@@ -247,8 +247,8 @@ body {
 .play-game-pic {
     width: 50%;
     position: relative;
-   
-    
+
+
 }
 
 .play-game-pic img {
@@ -258,18 +258,18 @@ body {
 .play-game-pic .doll-pic {
     width: 40%;
     height: 40%;
-    
+
     border-radius: 8px;
     border: 10px solid #FFF;
     position: absolute;
     bottom: 0px;
     left: 80%;
-    
+
 }
 
 .play-game-text {
     width: 50%;
-   
+
     margin-left: 150px;
 }
 
@@ -293,3 +293,52 @@ body {
 }
 
 /* ----play game online anywhere anytime ends here----- */
+
+/* ------various games part starts here------- */
+.game-name-container {
+    max-width: 1300px;
+    /* border: 2px solid red; */
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.single-logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.single-logo {
+    display: flex;
+    align-content:center;
+    /* justify-content:center; */
+    width: 120px;
+    height: 50px;
+    flex-basis: 200px;
+    justify-content: space-around;
+    align-items: center;
+ background: #FFF;
+    /* width: 20%; */
+    padding: 0px 10px;
+}
+
+.single-logo:hover {
+    border: 1px solid #F948B2;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.single-logo .logo-pera {
+    color: #0B0223;
+    /* display: flex; */
+    font-size: 11px;
+     padding-left: 5px;
+    font-weight: 600;
+
+}
+
+/* ------various games part ends here------- */
