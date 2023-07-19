@@ -250,6 +250,7 @@ text-align: center;
 .card2:hover .icon-play {
 display: block;
 cursor: pointer;
+border: 2px solid red;
 opacity: 1;
 background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
 
