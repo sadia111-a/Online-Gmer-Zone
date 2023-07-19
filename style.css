@@ -378,6 +378,10 @@ top: 50%;
     border-radius: 30px;
 }
 
+.single-logo .logo-pera:hover{
+    color: #F948B2;
+
+}
 .single-logo .logo-pera {
     color: #0B0223;
     /* display: flex; */
