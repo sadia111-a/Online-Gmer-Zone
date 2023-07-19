@@ -260,7 +260,7 @@ body {
     height: 40%;
 
     border-radius: 8px;
-    border: 10px solid #FFF;
+    /* border: 10px solid #FFF; */
     position: absolute;
     bottom: 0px;
     left: 80%;
@@ -347,21 +347,19 @@ body {
     
    
     text-align: center;
-    max-width: 1300px;
+    max-width: 1200px;
     min-height: 500px;
-    border: 1px solid red;
+   
     margin: 50px auto;
     background-color: #0B0223;
     color: white;
 }
 
-.foot-logo img {
-    object-fit: cover;
-}
+
 
 .foot {
     display: flex;
-    margin-top: 80px;
+    padding-top: 80px;
     justify-content: center;
     text-align: center;
     width: 100%;
@@ -370,15 +368,17 @@ body {
 }
 
 .foot-list {
+    
     display: flex;
+    gap: 30px;
     justify-content: center;
     list-style: none;
-    gap: 40px;
+   flex-basis: 100px;
     color: #FFF;
-    text-align: center;
-    align-items: center;
-    font-size: 18px;
-    font-weight: 600;
+text-align: center;
+font-size: 15px;
+font-weight: 600;
+
 }
 .icon-symbol{
     display: flex;

@@ -108,9 +108,9 @@
     }
 
     .play-game-pic .doll-pic {
-        width: 30%;
-        height: 30%;
-
+        width: 20%;
+        height: 20%;
+        left: 85%;
 
     }
 
@@ -146,29 +146,23 @@
         flex-basis: 110px;
         padding: 5px 5px;
     }
-    .foot-list {
-      flex-direction: column;
-     
-       align-content: center;
-        list-style: none;
-        gap: 20px;
-        color: #FFF;
-        text-align: center;
-        align-items: center;
-        font-size: 9px;
-        font-weight: 600;
+    .foot-list{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
     }
     .icon-symbol{
-        
-      font-size: 20px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        font-size: 30px;
     }
-    .term-list,.foot-pera{
-        font-size: 7px;
+     .term-list{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
     }
-    .foot{
-        font-size: small;
+    .foot-pera{
+        font-size: 12px;
+        padding-bottom: 20px;
+       
     }
-
-
 
 }
