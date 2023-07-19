@@ -146,7 +146,28 @@
         flex-basis: 110px;
         padding: 5px 5px;
     }
-
+    .foot-list {
+      flex-direction: column;
+     
+       align-content: center;
+        list-style: none;
+        gap: 20px;
+        color: #FFF;
+        text-align: center;
+        align-items: center;
+        font-size: 9px;
+        font-weight: 600;
+    }
+    .icon-symbol{
+        
+      font-size: 20px;
+    }
+    .term-list,.foot-pera{
+        font-size: 7px;
+    }
+    .foot{
+        font-size: small;
+    }
 
 
 

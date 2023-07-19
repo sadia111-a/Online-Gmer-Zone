@@ -344,10 +344,10 @@ body {
 /* ------various games part ends here------- */
 /* ------footer part starts here------ */
 .footer-container {
-    /* display: flex; */
-    justify-content: center;
+    
+   
     text-align: center;
-    max-width: 1200px;
+    max-width: 1300px;
     min-height: 500px;
     border: 1px solid red;
     margin: 50px auto;
@@ -387,6 +387,10 @@ body {
     gap: 20px;
     margin-top: 50px;
   font-size: 40px;
+}
+.icon-symbol a:hover{
+    cursor:pointer;
+    opacity: .4;
 }
 .term-list{
     color: rgba(255, 255, 255, 0.60);
