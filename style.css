@@ -107,11 +107,13 @@ body {
     /* border: 1px solid red; */
 
 }
-.cir-play{
-color:#FF42A5 ;
+
+.cir-play {
+    color: #FF42A5;
 }
-.download{
-color:#FF42A5 ;
+
+.download {
+    color: #FF42A5;
 }
 
 .banner-img {
@@ -223,10 +225,13 @@ color:#FF42A5 ;
     /* border: 1px solid green; */
     width: 100%;
 }
-.card2{
+
+.card2,
+.single-card {
     position: relative;
     width: 100%;
 }
+
 .icon-play {
     position: absolute;
     width: 100%;
@@ -235,35 +240,67 @@ color:#FF42A5 ;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: greyransparent;
+    -webkit-text-fill-color: transparent;
     color: #FFF;
     top: 0%;
     left: 0%;
-   display: none;
-  
+    display: none;
+
 }
-.btn-you{
+
+.btn-you {
     margin-left: 40%;
     margin-top: 40%;
 }
-.icon-play p{
+
+.icon-play p {
     background: var(--linear, linear-gradient(90deg, #f409b9 0%, #f60782 100%));
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-text-align: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.single-card:hover .icon-play {
+    display: block;
+    cursor: pointer;
+    border: 2px solid red;
+    opacity: 1;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.card1:hover .icon-play {
+    display: block;
+    cursor: pointer;
+    border: 2px solid red;
+    opacity: 1;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url('images/Rectangle\ 4.png'), lightgray 50% / cover no-repeat;
 }
 .card2:hover .icon-play {
-display: block;
-cursor: pointer;
-border: 2px solid red;
-opacity: 1;
-background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url('images/Rectangle\ 7.png'), lightgray 50% / cover no-repeat;
-
+    display: block;
+    cursor: pointer;
+    border: 2px solid red;
+    opacity: 1;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url('images/Rectangle\ 5.png'), lightgray 50% / cover no-repeat;
 }
-.fa-solid{
-text-align: center;
-top: 50%;
+.card3:hover .icon-play {
+    display: block;
+    cursor: pointer;
+    border: 2px solid red;
+    opacity: 1;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url('images/Rectangle\ 7.png'), lightgray 50% / cover no-repeat;
+}
+.card4:hover .icon-play {
+    display: block;
+    cursor: pointer;
+    border: 2px solid red;
+    opacity: 1;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url('images/Rectangle\ 6.png'), lightgray 50% / cover no-repeat;
+}
+
+.fa-solid {
+    text-align: center;
+    top: 50%;
     left: 50%;
 }
 
@@ -385,10 +422,11 @@ top: 50%;
     border-radius: 30px;
 }
 
-.single-logo .logo-pera:hover{
+.single-logo .logo-pera:hover {
     color: #F948B2;
 
 }
+
 .single-logo .logo-pera {
     color: #0B0223;
     /* display: flex; */
